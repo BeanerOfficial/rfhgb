@@ -1,0 +1,15 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({Name = "Grpo Menu - Version 1.0", HidePremium = false, SaveConfig = true, IntroEnabled = false})
+
+local Tab = Window:MakeTab({
+	Name = "Welcome Baby",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab = Window:MakeTab({
+	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
